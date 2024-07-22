@@ -1,2 +1,2 @@
 var item = document.querySelector('.item-price-container')
-item.innerHTML = '20.50'
+item.style.fontSize = '50px'
