@@ -12,6 +12,7 @@ var div = document.createElement('div');
         div.style.top = '190px';
         div.style.left = '100px';
         div.style.zIndex = '3'
+        div.style.className = 'content-div-video';
 
         // Cria o pseudo-elemento ::after usando um elemento extra
         var afterDiv = document.createElement('div');
@@ -47,4 +48,4 @@ var div = document.createElement('div');
         div.appendChild(afterDiv);
 
         // Adiciona a div ao corpo do documento
-        document.querySelector('.section-featured-home').appendChild(div);
+        document.body.appendChild(div);
