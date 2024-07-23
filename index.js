@@ -8,7 +8,9 @@ var div = document.createElement('div');
         div.style.justifyContent = 'center';
         div.style.alignItems = 'center';
         div.style.overflow = 'clip';
-        div.position = 'fixed'
+        div.style.position = 'fixed';
+        div.style.top = '250px';
+        div.style.left = '200px';
 
         // Cria o pseudo-elemento ::after usando um elemento extra
         var afterDiv = document.createElement('div');
