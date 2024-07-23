@@ -8,5 +8,5 @@ window.onload = function() {
     quadrado.style.backgroundColor = 'blue';
 
     // Adiciona a nova div ao corpo da página
-    document.body.appendChild(quadrado);
+    document.querySelector(`.js-home-sections-container`).appendChild(quadrado)
 };
